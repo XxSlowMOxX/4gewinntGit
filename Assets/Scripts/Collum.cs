@@ -39,6 +39,8 @@ public class Collum : MonoBehaviour
         }
         stones.Add(lokal);
         Game.gezippt(columnn);
+        Game.printboard();
+        print(Game.checkWin());
 
     }
     // Update is called once per frame
